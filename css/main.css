@@ -1,0 +1,241 @@
+/* Utility Styles Begin */
+html {
+    background: url(../images/nza_background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 2rem 0 2rem 0;
+}
+
+body {
+    margin: 0px;
+}
+
+.wrapper {
+    margin: 0 20%;
+    padding: 0 2%;
+    background: white;
+    box-shadow: 0px 0px 10px rgb(86, 86, 86);
+}
+
+@media only screen and (max-width: 800px) {
+    .wrapper {
+        margin: 0px;
+    }
+}
+
+.double-border {
+    border: 10px double black;
+}
+
+
+.img-pad {
+    padding: .1rem;
+}
+
+.login-button:hover {
+    background-color: rgb(156, 154, 154);
+    cursor: pointer;
+}
+
+
+/* Utility Styles End */
+
+/* Header Styles Begin */
+.login {
+    text-align: end;
+}
+
+
+.login-button {
+    background-color: #CCC;
+    color: white;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: .3rem .4rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+.logo-header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.logo {
+
+    width: 50%;
+}
+
+nav {
+    border-top: 1.5px solid;
+    border-bottom: 1.5px solid;
+    margin-top: .75rem;
+}
+
+.nav-links-header {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: .6rem;
+    margin-bottom: .6rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-links-header {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .grey-dash {
+        transform: rotate(90deg);
+    }
+}
+
+.nav-links-header a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav-links-header a:hover {
+    color: #923530;
+}
+
+.grey-dash {
+    color: rgb(197, 197, 197);
+}
+
+
+/* Header Styles END */
+
+/* Main Styles Begin */
+.welcome-card {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding-top: 2rem;
+    justify-content: space-between;
+    max-height: 26rem;
+}
+
+.welcome-image {
+    max-width: 75%;
+    width: 100%;
+    height: 26rem;
+}
+
+.newsfeed {
+    max-height: 26rem;
+    background-image: url(../images/nav_side.jpg);
+    max-width: 20%;
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    flex-shrink: 0;
+    overflow-y: scroll;
+    line-height: 1.5rem;
+    padding: 0 1.2rem 0 1.2rem
+}
+
+.newsfeed-container h1 {
+    font-size: 0.7rem;
+}
+
+.welcome-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin: 2rem 0 3rem 0;
+}
+
+.welcome-address p {
+    line-height: 1rem;
+}
+
+.welcome-text {
+    max-width: 70%;
+}
+
+.welcome-address {
+    max-width: 24%;
+}
+
+/* Main Styles END */
+
+/* Footer Styles Begin */
+.nav-links-footer {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    height: 100%;
+    margin: .2rem auto;
+}
+
+.nav-links-footer a {
+    text-decoration: none;
+    color: black;
+    font-size: .8rem;
+    display: flex;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-links-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+    .nav-links-footer a:hover {
+        color: #923530;
+    }
+
+
+    footer {
+        border-top: 1.5px solid;
+        margin-top: .75rem;
+        padding-bottom: .5rem
+    }
+
+    .copyright {
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(197, 197, 197);
+        text-align: center;
+        padding-top: .4rem;
+        text-decoration: none;
+    }
+
+    .copyright-link {
+        text-decoration: none;
+    }
+
+
+    a .copyright:hover {
+        color: black;
+    }
+
+    .rot-text {
+        transform: rotate(90deg);
+        color: rgb(197, 197, 197);
+
+    }
+
+
+    /* Footer Styles END */

@@ -1,0 +1,94 @@
+
+.container {
+    display: flex;
+    margin-top: 1.5rem;
+}
+
+.sidebar {
+    
+    background-image: url(../images/nav_side.jpg);
+    max-width: 23%;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 10.1rem;
+    
+}
+
+.sidebar-container {
+    padding: .6rem;    
+}
+
+.sidebar-container h1 {
+    font-size: 0.8rem;
+}
+
+.who-we-are-list {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+
+.attorneys {
+    font-size: .7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding-bottom: 3px;
+}
+
+.attorneys-sub {
+    font-size: .7rem;
+    line-height: 1rem;
+    
+}
+
+.navlink {
+    width: auto;
+    width: 100%;
+
+    
+}
+
+.column-2 {
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    max-width: 75%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sidebar-text {
+    font-size: .8rem;
+    padding-bottom: .2rem;
+}
+
+.sidebar-text-indented {
+    font-size: .8rem;
+    line-height: 1.3rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+p {margin: 0px;
+    font-size: .8rem;
+    line-height: 1.3rem;
+    font-weight: 530;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    
+}
+
+.cards img {
+    max-width: 47%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .cards img {max-width: 95%;}
+
