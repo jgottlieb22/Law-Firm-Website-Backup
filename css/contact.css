@@ -9,9 +9,13 @@
     height: 20rem;
 }
 
+@media only screen and (max-width: 500px) {
+    .sidebar-left {min-width: 6rem}}
+
 .sidebar-left-container {
     padding: .6rem;    
 }
+
 
 .sidebar-left-container h1 {
     font-size: 0.8rem;
@@ -79,10 +83,14 @@
     width: 100%;
     color:#923530;
     font-family: Arial, Helvetica, sans-serif;
-    height: 25rem;
+    height: 27rem;
     font-size: .8rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media only screen and (max-width: 500px) {
+    .sidebar-right {height: 28rem; min-width: 5rem;
+    }}
 
 .sidebar-right-container {
     padding: .6rem;    
