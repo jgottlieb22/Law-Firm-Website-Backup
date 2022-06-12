@@ -10,7 +10,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-    .sidebar-left {min-width: 6rem}}
+    .sidebar-left {min-width: 6rem; height: 25rem;}}
 
 .sidebar-left-container {
     padding: .6rem;    
